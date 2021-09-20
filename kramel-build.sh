@@ -280,6 +280,8 @@ build_kernel() {
 			CC=clang \
 			LD=ld.lld \
 			AR=llvm-ar \
+			NM=llvm-nm \
+			OBJCOPY=llvm-objcopy \
 			OBJDUMP=llvm-objdump \
 			STRIP=llvm-strip
 		)
